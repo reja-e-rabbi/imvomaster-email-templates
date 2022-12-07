@@ -1,0 +1,38 @@
+.flex-row{
+    display: flex;
+    flex-flow: row wrap;
+}
+.just-center{
+    justify-content: center;
+}
+.just-right{
+    justify-content: right;
+}
+.ul-left, .dis-inline{
+    display: inline;
+    position: relative;
+}
+.ul-inline li, .inline{
+    display: inline;
+}
+.ul-li-style-none li{
+    list-style: none;
+}
+.cursor-pointer, .ul-li-cursor-pointer li{
+    cursor: pointer;
+}
+.pad-5{
+    padding: 5px;
+}
+.pad-top-80{
+    padding-top: 80px;
+}
+.pad-top-50, .pad-top-bot-50{
+    padding-top: 50px;
+}
+.pad-bot-50, .pad-top-bot-50{
+    padding-bottom: 50px;
+}
+.display-none{
+    display: none;
+}

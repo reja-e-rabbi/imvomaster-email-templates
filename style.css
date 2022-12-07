@@ -1,0 +1,71 @@
+@import url(/app/library/bootstrap51/css/bootstrap-grid.min.css);
+@import url(/custom.css);
+:root{
+    --color-body:#fff;
+    --color-card:#f1f5f9;
+    --color-text:#000;
+    --color-content:#f7f2f2;
+    --color-hover:rgb(15, 5, 26);
+    --font-famelly-gothic: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --font-famelly-ms: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--color-body);
+}
+a{
+    text-decoration: none;
+}
+.pop-li li{
+    padding: 5px;
+    margin: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.pop-li li:hover{
+    color: var(--color-hover);
+}
+.card-body{
+    background-color: var(--color-card);
+    margin: 5px;
+    padding: 5px;
+}
+.card-img img{
+    width: 220px;
+    height: auto;
+}
+.card-name{
+    padding: 10px 0px 0px 0px;
+}
+.card-name a{
+    font-size: 15px;
+    font-family: var(--font-famelly-ms);
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.card-svg{
+    padding: 10px 0px 0px 5px;
+}
+.card-svg a{
+    cursor: pointer;
+    font-size: 12px;
+    color: blueviolet;
+    padding: 10px;
+}
+.card-svg a abbr{
+    background-color: var(--color-card);
+}
+.card-svg a abbr svg{
+    width: 15px;
+    height: 15px;
+    padding: 3px;
+    margin: 5px;
+    cursor: pointer;
+}
+.card-svg a abbr svg:hover{
+    color: blueviolet;
+}
